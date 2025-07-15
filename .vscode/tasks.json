@@ -1,0 +1,15 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Build HTML",
+      "type": "shell",
+      "command": "sphinx-build -b html /home/coen/Dropbox/School/PWS_flex/PWS2120-online /home/coen/Dropbox/School/PWS_flex/PWS2120-online/docs",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": []
+    }
+  ]
+}
