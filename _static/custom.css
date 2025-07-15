@@ -1,0 +1,18 @@
+/* Pas algemene tekstgrootte aan */
+body {
+  font-size: 0.9rem;
+}
+
+/* Optioneel: pas ook koppen aan */
+h1 {
+  font-size: 1.8rem;
+}
+
+h2 {
+  font-size: 1.4rem;
+}
+
+h3 {
+  font-size: 1.2rem;
+}
+

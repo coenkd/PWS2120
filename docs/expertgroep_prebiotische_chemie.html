@@ -1,0 +1,587 @@
+
+<!DOCTYPE html>
+
+
+<html lang="nl" data-content_root="./" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>5. Prebiotische Chemie &#8212; PWS2120 leerlingmateriaal</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="_static/styles/theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="_static/styles/bootstrap.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="_static/styles/pydata-sphinx-theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+
+  
+  <link href="_static/vendor/fontawesome/6.5.2/css/all.min.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.2/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=8f2a1f02" />
+    <link rel="stylesheet" type="text/css" href="_static/styles/sphinx-book-theme.css?v=eba8b062" />
+    <link rel="stylesheet" type="text/css" href="_static/custom.css?v=1ba0b2db" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b" />
+<link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b" />
+  <script src="_static/vendor/fontawesome/6.5.2/js/all.min.js?digest=dfe6caa3a7d634c4db9b"></script>
+
+    <script src="_static/documentation_options.js?v=fbc27867"></script>
+    <script src="_static/doctools.js?v=9bcbadda"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="_static/scripts/sphinx-book-theme.js?v=887ef09a"></script>
+    <script src="_static/translations.js?v=e4d38c6a"></script>
+    <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'expertgroep_prebiotische_chemie';</script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Zoeken" href="search.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="nl"/>
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <div id="pst-skip-link" class="skip-link d-print-none"><a href="#main-content">Skip to main content</a></div>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>Back to top</button>
+
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          id="pst-primary-sidebar-checkbox"/>
+  <label class="overlay overlay-primary" for="pst-primary-sidebar-checkbox"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          id="pst-secondary-sidebar-checkbox"/>
+  <label class="overlay overlay-secondary" for="pst-secondary-sidebar-checkbox"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search..."
+         aria-label="Search..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+
+  <div class="pst-async-banner-revealer d-none">
+  <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
+</div>
+
+  
+    <header class="bd-header navbar navbar-expand-lg bd-navbar d-print-none">
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+        
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+
+  
+    
+  
+
+<a class="navbar-brand logo" href="index.html">
+  
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="_static/logo.png" class="logo__image only-light" alt="PWS2120 leerlingmateriaal - Home"/>
+    <script>document.write(`<img src="_static/logo.png" class="logo__image only-dark" alt="PWS2120 leerlingmateriaal - Home"/>`);</script>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item">
+
+ <script>
+ document.write(`
+   <button class="btn search-button-field search-button__button" title="Zoeken" aria-label="Zoeken" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <span class="search-button__default-text">Zoeken</span>
+    <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+   </button>
+ `);
+ </script></div>
+        <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        <p aria-level="2" class="caption" role="heading"><span class="caption-text">Inhoud</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="1.%20Startbijeenkomst.html">1. Startbijeenkomst</a></li>
+<li class="toctree-l1"><a class="reference internal" href="2.%20Dagboek%20van%20de%20toekomst.html">2. Dagboek van de toekomst</a></li>
+<li class="toctree-l1"><a class="reference internal" href="3.%20Delen%20dagboek%20en%20inleiding%20SDG%27s.html">3. Delen dagboek en inleiding SDG’s</a></li>
+<li class="toctree-l1"><a class="reference internal" href="4.%20Toekomstlabspel.html">4. Toekomstlabspel</a></li>
+<li class="toctree-l1"><a class="reference internal" href="5.%20Toekomstvraag%20en%20begeleidingsgesprek.html">5. Toekomstvraag en begeleidingsgesprek</a></li>
+<li class="toctree-l1"><a class="reference internal" href="6.%20Actorenanalyse%20en%20inkaderen%20onderzoeksthema%20%28CURIOUS%29.html">6. Actorenanalyse en inkaderen onderzoeksthema (CURIOUS)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="7.%20Systeemanalyse%201.html">7. Systeemanalyse 1</a></li>
+<li class="toctree-l1"><a class="reference internal" href="8.%20Systeemanalyse%202.html">8. Systeemanalyse 2</a></li>
+<li class="toctree-l1"><a class="reference internal" href="9.%20Pitch%20en%20eindgesprek.html">9. Pitch en eindgesprek</a></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main" role="main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article d-print-none">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><button class="sidebar-toggle primary-toggle btn btn-sm" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</button></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+<a href="https://github.com/coenkd/Astro-online/issues/new?title=Issue%20on%20page%20%2Fexpertgroep_prebiotische_chemie.html&body=Your%20issue%20content%20here." target="_blank"
+   class="btn btn-sm btn-source-issues-button"
+   title="Open een probleem"
+   data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+
+</a>
+
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download deze pagina">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="_sources/expertgroep_prebiotische_chemie.md" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download het bronbestand"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.md</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Afdrukken naar pdf"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Volledig scherm"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="theme-switch fa-solid fa-sun fa-lg" data-mode="light"></i>
+    <i class="theme-switch fa-solid fa-moon fa-lg" data-mode="dark"></i>
+    <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"></i>
+  </button>
+`);
+</script>
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm pst-navbar-icon search-button search-button__button" title="Zoeken" aria-label="Zoeken" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+  </button>
+`);
+</script>
+<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</button>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>5. Prebiotische Chemie</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Inhoud </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#inleiding">5.1 Inleiding</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#achtergrondinformatie-nucleinezuren">5.2 Achtergrondinformatie nucleïnezuren</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#opdrachten-nucleinezuren">Opdrachten nucleïnezuren</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#replicator-first-of-metabolism-first">5.3 Replicator-first’ of ‘metabolism first’</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#homochiraliteit">5.4 Homochiraliteit</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#eindopdracht">5.5 Eindopdracht</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#koolstof-of">Koolstof of …?</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#water-of">Water of …?</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#opdracht">Opdracht</a></li>
+</ul>
+</li>
+</ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+  <section class="tex2jax_ignore mathjax_ignore" id="prebiotische-chemie">
+<h1>5. Prebiotische Chemie<a class="headerlink" href="#prebiotische-chemie" title="Link to this heading">#</a></h1>
+<p><span style="color: green;"><em>expertgroep biologie en scheikunde</em></span></p>
+<section id="inleiding">
+<h2>5.1 Inleiding<a class="headerlink" href="#inleiding" title="Link to this heading">#</a></h2>
+<p>In de expertgroep prebiotische chemie start je met twee experimenten. In de wachttijden en na afloop van de experimenten werk je aan vragen en opdrachten uit dit document. Uiteindelijk zul je expertise moeten kunnen inbrengen bij de voorbereiding van een missie die gericht is op een zoektocht naar leven in of zelfs buiten ons zonnestelsel.</p>
+</section>
+<section id="achtergrondinformatie-nucleinezuren">
+<h2>5.2 Achtergrondinformatie nucleïnezuren<a class="headerlink" href="#achtergrondinformatie-nucleinezuren" title="Link to this heading">#</a></h2>
+<p>The DNA within all living organisms, from bacteria to humans, is made up of the exact same chemical components: deoxyribose, phosphate, and four nitrogenous bases: adenine (A), thymine (T), cytosine (C), and guanine (G). The difference in the amount of DNA and the specific arrangement of the nitrogenous bases (i.e. the genetic code) is what accounts for the wide variation of life forms on Earth.</p>
+<p>Comparing the similarities between the DNA sequences (i.e. genomes) of two species, or two individuals of the same species, can help scientists determine the relatedness of two species or individuals. The primary structure of DNA is generally described in terms of nucleotides, the molecular unit defined as a nucleobase connected by a glycosidic bond at the 1′ position of a phosphorylated 2′-deoxyribose sugar. Along the backbone of a DNA polymer, or strand, nucleosides are connected to each other through the phosphate groups. A phosphodiester linkage exists between the 3′ position of each nucleoside and the 5′ position of the next nucleoside along a given DNA strand. The order of the nucleotide bases (A, G, C and T) along a strand is the chemical basis for coding the genetic information contained within a DNA polymer. The repeating 3′-phosphate-5′ linkages between nucleotides provide the polymer directionality for DNA.</p>
+<p>In eukaryotic cells, DNA is contained within the nucleus and the mitochondria, as well as in the chloroplast of photosynthetic organisms. In bacteria, DNA is contained within a less well-defined structure known as the nucleoid that, unlike the eukaryotic nucleus, is not surrounded by a membrane. The secondary structure of DNA within living organisms is predominantly a double helix formed by two strands with complementary nucleoside sequences, that is, sequences which support Watson-Crick base pairing along their entire lengths (i.e. A paired with T; G paired with C). The two strands of a Watson-Crick double helix run in opposite directions (as defined by the directionality of their polymer backbones). A Watson-Crick duplex is therefore said to have an antiparallel arrangement of its two strands. This twisted structure of two base-paired DNA polymers is the reason that DNA is commonly referred to as a double helix.</p>
+<p><img alt="DNA-structuur" src="Plaatjes/DNA.png" /></p>
+<p>The four nucleobases of DNA, adenine (A), thymine (T), cytosine (C), and guanine (G), are of two chemical classes: the purines (A and G) and the pyrimidines (T and C). In a DNA duplex, each base pair is formed by the hydrogen bonding of a purine nucleobase with a pyrimidine nucleobase. That is, adenine forms a base pair with thymine and guanine forms a base pair with cytosine.</p>
+<p><img alt="DNA- en RNA-structuur" src="Plaatjes/nucleobasen.png" /></p>
+<p>Hydrogen bonds are not only important for the formation of Watson-Crick base pairs, but are also the bonds that hold together liquid water and are the bonds used within living cells to guide a multitude of molecular interactions. Thus, it is important to appreciate the nature of hydrogen bonds. Hydrogen bonds involving both oxygen and nitrogen atoms are responsible for base pairing in DNA.</p>
+<section id="opdrachten-nucleinezuren">
+<h3>Opdrachten nucleïnezuren<a class="headerlink" href="#opdrachten-nucleinezuren" title="Link to this heading">#</a></h3>
+<ol class="arabic simple">
+<li><p>In onderstaande figuur tref je een stukje DNA en een stukje RNA aan.</p></li>
+</ol>
+<p><img alt="DNA- en RNA-structuur" src="Plaatjes/RNA.png" /></p>
+<p><strong>a.</strong> Lokaliseer de volgende onderdelen: nucleïnezuur, nucleoside, nucleobase, nucleotide, ribose, fosfaat.<br />
+<strong>b.</strong> Geef het 3’-uiteinde en het 5’-uiteinde aan en laat door nummering van het pentose zien hoe je hieraan komt.<br />
+<strong>c.</strong> Wat is het verschil tussen adenine en adenosine?<br />
+<strong>d.</strong> Is adenosine een nucleotide of een nucleoside?<br />
+<strong>e.</strong> Waarin verschilt RNA chemisch van DNA?</p>
+<ol class="arabic simple" start="2">
+<li><p>De nucleobase thymine kan 3 waterstofbruggen vormen. Waarom koppelt thymine dan toch niet aan guanine of cytosine?</p></li>
+<li><p>Wat kenmerkt een pyrimidinebase en wat een purinebase?</p></li>
+<li><p>Waarom kan RNA niet als dubbele streng voorkomen?</p></li>
+</ol>
+<p>Adenine is niet alleen een belangrijke bouwsteen van DNA en RNA maar speelt vermoedelijk ook een belangrijke rol bij verschillende metabolismen die al tijdens de eerste stapjes van ontstaan van leven zijn ontwikkeld. In onderstaande figuur tref je het volledige molecuul van een stof die al op de vroege aarde aanwezig was.</p>
+<p><img alt="Adenosinetrifosfaat" src="Plaatjes/ATP.png" /></p>
+<ol class="arabic simple" start="5">
+<li><p>Leidt uit de structuur de naam van dit overbekende stofje af.</p></li>
+<li><p>Welke rol speelt dit stofje in verschillende metabolismen?</p></li>
+</ol>
+<p>Een belangrijk kenmerk van leven is dat het in staat is tot voortplanting en Darwiniaans evolutie kan ondergaan. In al het leven dat wij kennen is er sprake van een informatiestroom die start bij de nucleïnezuren en eindigt via eiwitten en metabolismen bij het fenotype van het organisme (Central Dogma):</p>
+<p><img alt="central_dogma" src="Plaatjes/central_dogma.png" /></p>
+<p>Niet gek dus dat er in de reconstructie van het ontstaan van leven dus gezocht werd naar hoe voor het eerst informatie moleculair kon worden opgeslagen. Zouden uit onze organische (bio)moleculen als adenine RNA-moleculen kunnen ontstaan?</p>
+<ol class="arabic simple" start="7">
+<li><p>Bediscussieer met elkaar hoe chemische evolutie naar functionele eiwitten zou hebben kunnen plaatsvinden met RNA-bouwstenen (nucleïnezuren) en eiwitbouwstenen (aminozuren). Hoe zou het selectiemechanisme tot stand komen? Welke molecuulsoorten overleven en welke niet? Maak een strip of animatie van jullie selectieprocedure.</p></li>
+</ol>
+<p>Tsja, wat was er eerst: eiwitten die RNA produceerden en codeerden voor steeds complexere eiwitten en metabolismes. Of was er eerst RNA dat zichzelf repliceerde en de synthese van eiwitten katalyseerde die vervolgens weer de informatie bevatten van complexere processen. Of was het tot slot nodig dat er zich eerst metabolismen ontwikkelden van waaruit een stabiele stroom bouwstenen voor leven werd geproduceerd en waarmee leven zich kon organiseren? Men is er nog niet uit!
+Het feit echter dat de ribosomale eiwitsynthese een ribozym gekatalyseerd proces is maakt het bijna zeker dat er ooit een RNA-wereld moet zijn geweest. Een ribozym is een stukje RNA dat zo gevouwen is dat het katalytische eigenschappen krijgt. Het centrale probleem voor ‘origin-of-life’ studies is derhalve te begrijpen hoe een eiwitvrije RNA-wereld kon ontstaan op de primitieve aarde.</p>
+<ol class="arabic simple" start="8">
+<li><p>Bekijk: <a class="reference external" href="https://www.youtube.com/watch?v=K1xnYFCZ9Yg">https://www.youtube.com/watch?v=K1xnYFCZ9Yg</a><br />
+<strong>a.</strong> Leg uit wat bedoeld wordt met: organismen zijn een soort    overlevingsmachines voor RNA.<br />
+<strong>b.</strong> Welk probleem is bij replicatie van RNA nog niet opgelost (wetenschappelijk)?<br />
+<strong>c.</strong> Waarom zouden ribozymen die dankzij mutaties efficiënter zijn in het voortbrengen van nucleotiden dan anderen evolutionair in het voordeel zijn en zich uiteindelijk uitselecteren?<br />
+<strong>d.</strong> De verteller stelt dat de lijn tussen leven en niet-leven vervaagt door de komst van ribozymen die nucleotiden maken. Leg dat uit.<br />
+<strong>e.</strong> Waarom zijn wetenschappers op zoek naar eenvoudigere replicerende systemen dan RNA?</p></li>
+</ol>
+<p>Het team van Sybren Otto in Groningen is op een hele andere manier met het begin van leven bezig. Hier wordt gekeken of puur op basis van chemie een systeem kan worden ontwikkeld dat de eigenschappen heeft van een evoluerend Darwinistisch systeem.</p>
+<ol class="arabic simple" start="9">
+<li><p>Bekijk: <a class="reference external" href="https://youtu.be/qjW0rAaUpXs">https://youtu.be/qjW0rAaUpXs</a><br />
+<strong>a.</strong> In de darwinistische theorie krijgen individuen veel nakomelingen die met elkaar concurreren om voedsel, levensruimte etc. Hoe zit dat in het systeem van Otto?<br />
+<strong>b.</strong> Ontwikkeling/evolutie van een soort door ‘Survival of the fittest’ kan alleen als er mutaties plaatsvinden. Hoe zit dat in het systeem van Otto: wat zijn bij hem de mutaties en hoe zou je daardoor een verschil in ‘fitheid’ krijgen tussen moleculaire systemen?<br />
+<strong>c.</strong> Lijken de bouwsteentjes, de ringen of de gestapelde ringen op organismen uit de darwinistische theorie?</p></li>
+</ol>
+</section>
+</section>
+<section id="replicator-first-of-metabolism-first">
+<h2>5.3 Replicator-first’ of ‘metabolism first’<a class="headerlink" href="#replicator-first-of-metabolism-first" title="Link to this heading">#</a></h2>
+<p>Om jullie wat verder in deze discussie tussen de ‘replicator-first’ en de ‘metabolism first’ gedachte te betrekken vragen wij jullie om wat literatuur te bestuderen. Je mag dit werk verdelen in je groep!</p>
+<ul class="simple">
+<li><p>Replicator first: Zie review artikel Re-creating an RNA world door U. F. Müller: <a href="_static/Müller2006_Article_Re-creatingAnRNAWorld.pdf" target="_blank" rel="noopener" title="Müller2006_Article_Re-creatingAnRNAWorld">Bekijk de bijlage (PDF)</a></p></li>
+<li><p>Metabolism first: https://www.americanscientist.org/article/the-origin-of-life</p></li>
+</ul>
+<ol class="arabic simple" start="10">
+<li><p>Probeer argumenten voor en tegen ‘replicator-first’ en ‘metabolism-first’ op een rijtje te zetten. Gebruik zeker ook andere bronnen.</p></li>
+</ol>
+</section>
+<section id="homochiraliteit">
+<h2>5.4 Homochiraliteit<a class="headerlink" href="#homochiraliteit" title="Link to this heading">#</a></h2>
+<p>Van bouwstenen van nucleïnezuren en eiwitten bestaan verschillende stereoisomeren. In alle levende wezens die wij kennen komt slechts één van de isomeren voor: L-aminozuren en D-ribose terwijl in het lab geproduceerde suikers en aminozuren altijd een racemisch mengsel opleveren (50/50 L en D). Een belangrijke vraag in onze zoektocht naar ontstaan van leven is hoe homochiraliteit zich heeft ontwikkeld.</p>
+<ol class="arabic simple" start="11">
+<li><p>Leg uit aan de hand van de algemene structuur van een aminozuur dat er twee stereoisomeren van zijn.</p></li>
+<li><p>Leg uit dat er geen functioneel eiwit en geen functioneel RNA/DNA kan bestaan zonder homochiraliteit.</p></li>
+<li><p>Bespreek aan de hand van: <a class="reference external" href="http://www.talkorigins.org/faqs/abioprob/originoflife.html#homochirality">http://www.talkorigins.org/faqs/abioprob/originoflife.html#homochirality</a> mogelijke verklaringen voor het ontstaan van homochiraliteit. Gebruik daarbij de termen “amplification” en “enantiomeric excess (EE)” en licht toe met behulp van vondsten aan de Murchison-meteoriet.</p></li>
+</ol>
+</section>
+<section id="eindopdracht">
+<h2>5.5 Eindopdracht<a class="headerlink" href="#eindopdracht" title="Link to this heading">#</a></h2>
+<p>De vraag kan nu worden gesteld of bovenstaande kennis en hypothesen over het ontstaan van leven op aarde ons kan helpen in onze zoektocht naar leven elders.</p>
+<p>Als expertgroep gaan jullie aan de andere groepen een presentatie geven over jullie bevindingen. Je laat iets zien over de stand van zaken met betrekking tot onze kennis over het ontstaan van leven op aarde en in hoeverre die kennis van belang kan zijn voor een missie naar Mars of een missie waarbij exoplaneten worden onderzocht. Uiteindelijk zul je op grond van je vergaarde kennis advies moeten kunnen geven over targetstoffen/moleculen die kunnen wijzen op mogelijk leven (biosignatures).</p>
+<p>Omdat leven elders niet per se de biochemie hoeft te volgen van de aarde vragen wij jullie eens kritisch te kijken naar het element koolstof als ruggengraat van vrijwel alle biomoleculen en de stof water als universeel oplosmiddel.</p>
+<section id="koolstof-of">
+<h3>Koolstof of …?<a class="headerlink" href="#koolstof-of" title="Link to this heading">#</a></h3>
+<p>Koolstofatomen vormen de ruggengraat van vrijwel alle biomoleculen. Zou een ander element uit bijvoorbeeld dezelfde groep uit het periodiek systeem haar plaats kunnen innemen? Moeten we focussen op een koolstofwereld of zou bijvoorbeeld een siliciumwereld ook denkbaar zijn? Wat is er zo bijzonder aan koolstof?</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://youtu.be/VUiDwrM2YPI">Why is carbon the key to life</a></p></li>
+<li><p><a class="reference external" href="https://en.wikipedia.org/wiki/Hypothetical_types_of_biochemistry">https://en.wikipedia.org/wiki/Hypothetical_types_of_biochemistry</a></p></li>
+</ul>
+</section>
+<section id="water-of">
+<h3>Water of …?<a class="headerlink" href="#water-of" title="Link to this heading">#</a></h3>
+<p>Een uitgangspunt bij veel missies is de zoektocht naar water. Water heeft hele bijzondere eigenschappen die in ieder geval voor het aardse leven onontbeerlijk zijn. De vraag is echter hoe universeel noodzakelijk water voor leven is.</p>
+<p>Onder andere onderstaande eigenschappen maken water voorwaardelijk voor leven op aarde:</p>
+<ol class="arabic simple">
+<li><p>Vloeibaar over een brede temperatuursband (water 0–100 °C)</p></li>
+<li><p>Dichtheid van ijs is lager dan van de vloeistof (bevroren ijskap beschermt leven onder de kap)</p></li>
+<li><p>Water kan waterstofbruggen vormen en maakt daardoor onderscheid tussen hydrofiele en hydrofobe stoffen (self-assembly membranen, vouwing van eiwitten)</p></li>
+<li><p>Water heeft een grote soortelijke warmte en een hoge verdampingswarmte (stabilisatie van temperatuur in oplossing)</p></li>
+<li><p>Water is reeds geoxideerd, dus inert in een oxiderende atmosfeer</p></li>
+</ol>
+<p><strong>Vraag:</strong> Bediscussieer deze voorwaarden (hoe belangrijk zijn ze, denk je?) en vergelijk ze met een aantal andere stoffen zoals <span class="math notranslate nohighlight">\(\ce{NH3, CH4, C2H2, CH3OH}\)</span>
+. Maak een tabel en gebruik eventueel: <a class="reference external" href="https://en.wikipedia.org/wiki/Hypothetical_types_of_biochemistry">https://en.wikipedia.org/wiki/Hypothetical_types_of_biochemistry</a></p>
+</section>
+<section id="opdracht">
+<h3>Opdracht<a class="headerlink" href="#opdracht" title="Link to this heading">#</a></h3>
+<p>Zorg ervoor dat je een presentatie klaar hebt (liefst als poster) waarmee je aan de andere expertgroepen kunt presenteren:</p>
+<ul class="simple">
+<li><p>Wat weten we over ontstaan van leven: prebiotisch → biotisch (biomoleculen)</p></li>
+<li><p>Aandacht voor metabolism first / replicator first en homochiraliteit</p></li>
+<li><p>Noteer je bronnen/referenties</p></li>
+<li><p>Keuze van kansrijke biosignatures en toelichting daarop</p></li>
+</ul>
+<p><a class="reference external" href="https://palereddot.org/biosignature-gases-a-needle-in-a-haystack/">https://palereddot.org/biosignature-gases-a-needle-in-a-haystack/</a></p>
+</section>
+</section>
+</section>
+
+
+                </article>
+              
+
+              
+              
+              
+              
+                <footer class="prev-next-footer d-print-none">
+                  
+<div class="prev-next-area">
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Inhoud
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#inleiding">5.1 Inleiding</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#achtergrondinformatie-nucleinezuren">5.2 Achtergrondinformatie nucleïnezuren</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#opdrachten-nucleinezuren">Opdrachten nucleïnezuren</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#replicator-first-of-metabolism-first">5.3 Replicator-first’ of ‘metabolism first’</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#homochiraliteit">5.4 Homochiraliteit</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#eindopdracht">5.5 Eindopdracht</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#koolstof-of">Koolstof of …?</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#water-of">Water of …?</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#opdracht">Opdracht</a></li>
+</ul>
+</li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+Door Coen Klein Douwel
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+
+  <p class="copyright">
+    
+      © Copyright 2025.
+      <br/>
+    
+  </p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+<div class="extra_footer">
+  
+        <div style="text-align: left; margin-top: 1em;">
+            <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noopener noreferrer">
+                <img alt="Creative Commons Licentie" src="_static/cc.png" style="height: 40px;" />
+            </a>
+           
+        </div>
+    
+</div>
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b"></script>
+<script src="_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>
