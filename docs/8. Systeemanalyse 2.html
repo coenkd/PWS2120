@@ -307,7 +307,9 @@ document.write(`
   </button>
 `);
 </script>
-
+<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</button>
 </div></div>
       
     </div>
@@ -323,6 +325,19 @@ document.write(`
     <div id="print-main-content">
         <div id="jb-print-toc">
             
+            <div>
+                <h2> Inhoud </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#voorbeeld-uit-de-les">Voorbeeld uit de les</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#leerlingopdrachten">Leerlingopdrachten</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#orientatie-met-chatbot">Oriëntatie met chatbot</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#uitwerking-causaal-diagram">Uitwerking causaal diagram</a></li>
+</ul>
+</li>
+</ul>
+            </nav>
         </div>
     </div>
 </div>
@@ -334,7 +349,49 @@ document.write(`
                   
   <section class="tex2jax_ignore mathjax_ignore" id="systeemanalyse-2">
 <h1>8. Systeemanalyse 2<a class="headerlink" href="#systeemanalyse-2" title="Link to this heading">#</a></h1>
-<p>test 1</p>
+<p>In de vorige les hebben we op basis van een set variabelen een relatiecirkel gemaakt. Tussen variabelen hebben we directe causale verbanden weergegeven met pijlen. Aan deze pijlen hebben we een <strong>s(ame)</strong> of <strong>o(pposite)</strong>-label toegekend.
+In deze les zetten we de volgende stap naar een uitgebreider systeem: een <strong>causaal diagram</strong>. In een causaal diagram blijven de variabelen en relaties uit de relatiecirkel behouden, maar daarnaast worden ook <strong>causale lussen</strong> zichtbaar. Dit zijn grotere circulaire verbanden tussen variabelen met een versterkend of een dempend effect, respectievelijk <strong>R(eïnforcing)</strong> en <strong>B(alancing) lussen</strong>.</p>
+<section id="voorbeeld-uit-de-les">
+<h2>Voorbeeld uit de les<a class="headerlink" href="#voorbeeld-uit-de-les" title="Link to this heading">#</a></h2>
+<p><img alt="Voorbeeld feedbacklus 1" src="img/voorbeeld-feedbacklus-1.png" />
+<em>Figuur 1. Visualisatie van feedbacklussen in plasticproductie</em></p>
+<p>In het systeem van plasticproductie en -vervuiling werken balancerende en versterkende feedbacklussen tegelijkertijd:
+<strong>Dempende lus (B-loop):</strong> regelgeving en consumentengedrag kunnen de productie van plastic afremmen.
+<strong>Versterkende lus (R-loop):</strong> lagere productiekosten en een toenemende vraag stimuleren juist de plasticproductie.</p>
+<p>De uiteindelijke uitkomst hangt af van welke krachten domineren. Als regelgeving en bewustwording sterk genoeg zijn, kan de negatieve impact van plasticvervuiling worden beperkt. Maar als de economische krachten van vraag en aanbod overheersen, zal de plasticproductie blijven toenemen en het ecologische probleem verergeren.
+De gecombineerde feedbacklussen laten zien hoe balancerende en versterkende krachten invloed hebben op het probleem van <strong>plasticsoep</strong>. Dit raakt meerdere <strong>Werelddoelen (SDG’s)</strong>:
+<strong>SDG 14 (Leven in het Water)</strong> en <strong>SDG 15 (Leven op het Land):</strong> impact van plasticvervuiling op ecosystemen.
+<strong>SDG 3 (Gezondheid en welzijn)</strong> en <strong>SDG 6 (Schoon drinkwater):</strong> gevolgen voor menselijke gezondheid en waterkwaliteit.
+****<strong>SDG 12 (Verantwoorde Consumptie en Productie)</strong> en <strong>SDG 13 (Klimaatactie):</strong> het belang van beleid en gedragsverandering om de milieu-impact te beperken.
+Dit illustreert hoe systeemdenken helpt om complexe problemen te begrijpen en hoe beleid en bewustwording nodig zijn om economische groeidynamiek in balans te brengen met sociale en ecologische grenzen (zoals geformuleerd in de <strong>Doughnut van Raworth</strong>).
+.</p>
+</section>
+<section id="leerlingopdrachten">
+<h2>Leerlingopdrachten<a class="headerlink" href="#leerlingopdrachten" title="Link to this heading">#</a></h2>
+<section id="orientatie-met-chatbot">
+<h3>Oriëntatie met chatbot<a class="headerlink" href="#orientatie-met-chatbot" title="Link to this heading">#</a></h3>
+<p><img alt="Voorbeeld chatbot prompt 2" src="img/chatbot-prompt-2.png" />
+<em>Figuur 2. Voorbeeldprompt voor systeemverkenning</em></p>
+<p>Gebruik de chatbot om een eerste verkenning van het systeem te maken. Voorbeeldprompts:
+<strong>Geef een lijst van variabelen</strong> (zaken die kunnen toe- of afnemen) in de complexe context van … (gebruik verschillende perspectieven, bijvoorbeeld de <strong>3 P’s</strong>: People, Planet, Prosperity). (Specificeer als het antwoord te ruim is.)
+<strong>Schets met deze variabelen een causaal diagram</strong> met <strong>O(pposite)-</strong> en <strong>S(ame)-pijlen</strong>. Zoek naar causale lussen en beschrijf een betekenisvol verhaal.
+<strong>Licht enkele belangrijke R(eïnforcing)- en B(alancing)-lussen eruit</strong> waarin je centrale variabele een plek heeft en vertel het bijbehorende verhaal.
+<strong>Aan welke SDG’s raken deze verhalen?</strong>
+<strong>Hoe verhoudt dit complexe systeem zich tot de Doughnut van Raworth?</strong>
+<strong>Zoek en benoem leverage points (hefboompunten).</strong> Dit zijn variabelen in je systeem waarmee je het systeem heel sterk zou kunnen beïnvloeden.
+⚠️ <strong>Let op:</strong> Wees kritisch op de gegenereerde antwoorden. Vraag door en controleer de logica.</p>
+</section>
+<section id="uitwerking-causaal-diagram">
+<h3>Uitwerking causaal diagram<a class="headerlink" href="#uitwerking-causaal-diagram" title="Link to this heading">#</a></h3>
+<p><img alt="Voorbeeld causale analyse 3" src="img/causale-analyse-3.png" />
+<em>Figuur 3. Eigen causale analyse in InsightMaker</em></p>
+<p>Na de oriëntatie ga je zelf aan de slag met het maken van een causaal diagram:
+Gebruik  om je causale diagram te maken.
+<strong>Voer alleen variabelen en verbanden in die je zelf begrijpt.</strong> Het helpt om hier een verhaal bij te maken.
+<strong>Geef in je causale diagram ook R- en B-loops weer</strong> en analyseer hoe deze feedbacklussen het systeem beïnvloeden.
+Door deze oefening krijg je inzicht in eigenschappen van complexe systemen en hoe verschillende krachten samenwerken of tegenwerken binnen een complex vraagstuk.</p>
+</section>
+</section>
 </section>
 
 
@@ -372,6 +429,26 @@ document.write(`
             </div>
             
             
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Inhoud
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#voorbeeld-uit-de-les">Voorbeeld uit de les</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#leerlingopdrachten">Leerlingopdrachten</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#orientatie-met-chatbot">Oriëntatie met chatbot</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#uitwerking-causaal-diagram">Uitwerking causaal diagram</a></li>
+</ul>
+</li>
+</ul>
+  </nav></div>
+
+</div></div>
               
             
           </div>
