@@ -12,5 +12,6 @@ Je kunt de rubric gebruiken:
 - 📝 **Aan het eind** van het traject, wanneer de begeleider de rubric gebruikt om je werk te beoordelen.
 
 De rubric is dus niet alleen een beoordelingsinstrument, maar ook een **leidraad tijdens je leerproces**. We raden je aan om de rubric regelmatig erbij te pakken. Zo weet je waar je staat – en wat een logische volgende stap is.
+[Bekijk de rubric (PDF)](https://documenten/Rubric.pdf)
 
 
