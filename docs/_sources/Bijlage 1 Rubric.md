@@ -13,5 +13,6 @@ Je kunt de rubric gebruiken:
 
 De rubric is dus niet alleen een beoordelingsinstrument, maar ook een **leidraad tijdens je leerproces**. We raden je aan om de rubric regelmatig erbij te pakken. Zo weet je waar je staat – en wat een logische volgende stap is.
 
-<a href="documenten/Rubric.pdf" target="_blank" rel="noopener" title="Rubric">Klik hier voor de rubric(PDF)</a>
+[Bekijk de rubric](./documenten/Rubric.pdf)
+
 
