@@ -1,0 +1,79 @@
+<svg viewBox="0 0 1200 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Illustratie: een meanderend pad van nu naar 2120 onder een netwerk van verbonden punten, symbool voor toekomstdenken en systeemdenken">
+  <defs>
+    <linearGradient id="lucht" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f2f7fb"/>
+      <stop offset="1" stop-color="#dcecf5"/>
+    </linearGradient>
+    <linearGradient id="zon" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffd166"/>
+      <stop offset="1" stop-color="#f4a259"/>
+    </linearGradient>
+    <linearGradient id="heuvelver" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#bcd9c2"/>
+      <stop offset="1" stop-color="#a3cbae"/>
+    </linearGradient>
+    <linearGradient id="heuveldichtbij" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8fbf9a"/>
+      <stop offset="1" stop-color="#6ea87c"/>
+    </linearGradient>
+  </defs>
+
+  <!-- lucht -->
+  <rect x="0" y="0" width="1200" height="400" rx="18" fill="url(#lucht)"/>
+
+  <!-- zon aan de horizon -->
+  <circle cx="960" cy="150" r="62" fill="url(#zon)"/>
+  <circle cx="960" cy="150" r="80" fill="none" stroke="#f4a259" stroke-opacity="0.35" stroke-width="3"/>
+  <circle cx="960" cy="150" r="98" fill="none" stroke="#f4a259" stroke-opacity="0.18" stroke-width="3"/>
+
+  <!-- verre heuvels -->
+  <path d="M0 265 Q 180 210 380 250 T 760 240 T 1200 255 L 1200 400 L 0 400 Z" fill="url(#heuvelver)"/>
+  <!-- nabije heuvels -->
+  <path d="M0 310 Q 220 265 470 295 T 900 285 T 1200 300 L 1200 400 L 0 400 Z" fill="url(#heuveldichtbij)"/>
+
+  <!-- meanderend pad van NU naar 2120 -->
+  <path d="M 70 380 C 170 350, 240 392, 330 366 C 420 340, 430 300, 370 278 C 322 260, 380 234, 480 246 C 585 258, 640 312, 735 292 C 828 272, 790 222, 862 200 C 906 186, 926 182, 942 176"
+        fill="none" stroke="#f7efe2" stroke-width="26" stroke-linecap="round"/>
+  <path d="M 70 380 C 170 350, 240 392, 330 366 C 420 340, 430 300, 370 278 C 322 260, 380 234, 480 246 C 585 258, 640 312, 735 292 C 828 272, 790 222, 862 200 C 906 186, 926 182, 942 176"
+        fill="none" stroke="#e0b98a" stroke-width="4" stroke-dasharray="2 22" stroke-linecap="round"/>
+
+  <!-- netwerk van verbonden knooppunten (systeemdenken) -->
+  <g stroke="#5b7a99" stroke-opacity="0.55" stroke-width="2.5" fill="none">
+    <path d="M140 120 L 250 70"/>
+    <path d="M250 70 L 360 130"/>
+    <path d="M140 120 L 360 130"/>
+    <path d="M360 130 L 470 60"/>
+    <path d="M470 60 L 590 110"/>
+    <path d="M360 130 L 590 110"/>
+    <path d="M590 110 L 700 55"/>
+    <path d="M590 110 L 730 150"/>
+    <path d="M700 55 L 730 150"/>
+    <!-- terugkoppelingslus -->
+    <path d="M 470 60 C 520 10, 640 10, 700 55" stroke-dasharray="7 7"/>
+  </g>
+  <!-- pijlpunt op de terugkoppelingslus -->
+  <path d="M 693 47 L 706 56 L 691 62 Z" fill="#5b7a99" fill-opacity="0.7"/>
+
+  <!-- knooppunten in SDG-achtige kleuren -->
+  <g stroke="#ffffff" stroke-width="3">
+    <circle cx="140" cy="120" r="15" fill="#e5243b"/>
+    <circle cx="250" cy="70"  r="13" fill="#fcc30b"/>
+    <circle cx="360" cy="130" r="17" fill="#4c9f38"/>
+    <circle cx="470" cy="60"  r="13" fill="#26bde2"/>
+    <circle cx="590" cy="110" r="16" fill="#fd6925"/>
+    <circle cx="700" cy="55"  r="12" fill="#8f1838"/>
+    <circle cx="730" cy="150" r="14" fill="#00689d"/>
+  </g>
+
+  <!-- figuurtje aan het begin van het pad -->
+  <g>
+    <circle cx="112" cy="330" r="11" fill="#2f4858"/>
+    <path d="M 112 341 C 100 344, 96 362, 98 376 L 126 376 C 128 362, 124 344, 112 341 Z" fill="#2f4858"/>
+  </g>
+
+  <!-- labels -->
+  <g font-family="Georgia, 'Times New Roman', serif">
+    <text x="112" y="398" font-size="17" fill="#2f4858" text-anchor="middle" font-weight="bold">nu</text>
+    <text x="960" y="158" font-size="26" fill="#7a4a12" text-anchor="middle" font-weight="bold">2120</text>
+  </g>
+</svg>
