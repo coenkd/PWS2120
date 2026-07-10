@@ -6,6 +6,7 @@ Leerlingmateriaal
 :maxdepth: 2
 :caption: Inhoud
 
+Inleiding module PWS2120.md
 1. Startbijeenkomst.md
 2. Dagboek van de toekomst.md
 3. Delen dagboek en inleiding SDG's.md

@@ -1,0 +1,42 @@
+# 3. Delen dagboek en inleiding SDG's
+## 3.1 Presentatie dagboekfragment
+In de les vertel je kort iets over jouw fragmenten en je reflecteert daarbij op de toekomst
+## 3.2 Sustainable Development Goals (SDG's)  
+De sustainable development goals, ook wel de werelddoelen genoemd zijn doelen geformuleerd door de Verenigde Naties. De Sustainable Development Goals (SDG’s), zijn zeventien doelen om van de wereld een betere plek te maken in 2030. Ze zijn een mondiaal kompas voor uitdagingen als armoede, onderwijs en de klimaatcrisis.
+```{figure} Plaatjes/sdg's.png
+:width: 800px
+:align: center
+:name: de 17 SDG's
+```  
+In [Filmpje SDG's](https://www.sdgnederland.nl/wp-content/uploads/2022/06/impactainment_-_sdg_kids_v4_nlsubs_2-1080p.mp4) wordt ieder doel nader toegelicht. Wil je echt wat meer weten per doel dan kun de website van SDG Nederland raadplegen. Hier kun je per doel doorklikken voor een nadere beschrijving. [Klik hier](https://www.sdgnederland.nl/de-17-sdgs/).
+
+Wanneer je een complex maatschappelijk vraagstuk bestudeerd zul je erachter komen dat er vaak verschillende SDG's een rol spelen. Zo kun je bij het vraagstuk van de moderne kledingsindustrie bij vrijwel ieder doel een deel van het vraagstuk 'wegzetten'. 
+```{figure} Plaatjes/SDG's_kleding.png
+:width: 800px
+:align: center
+:name: de 17 SDG's in de kledingindustrie
+```  
+## 3.3 De bruidstaart en de donut
+De werelddoelen zijn niet allemaal gelijkwaardig. Het zogenaamde bruidstaartmodel geeft aan dat bepaalde doelen voorwaardelijk zijn om ander doelen te behalen.
+```{figure} Plaatjes/bruidstaart.png
+:width: 800px
+:align: center
+:name: de bruidstaart
+```  
+
+Een andere veelgebruikte indeling is die van Kate Raworth: de donut. De wereld wordt hier voorgesteld als een donut met een sociaal fundament en een ecologisch plafond. Hierbinnen (binnen de donut) moeten wereldse activiteiten zich afspelen willen ze duurzaam genoemd kunnen worden.
+```{figure} Plaatjes/Donut.jpg
+:width: 500px
+:align: center
+:name: de donut van Raworth
+```  
+De SDG's kun je binnnen de donut een plekje geven.
+## 3.4 Opdracht SDG's 
+Ga naar  [website nexxdott](https://nexxdott.com/voor-jongeren/) (68 inspiratiefilmpjes aan het einde van de webpagina!) en bekijk minimaal 10 SDG-filmpjes (minimaal 2 uit cat. 13,14,15, 3 uit cat. 6,7,11,12 en 5 uit cat. 1,2,3,4,5,8,9,10,16) en beantwoord de volgende vragen:
+
+ - Welke filmpjes heb je bekeken en waarom?
+ - Welke filmpjes hebben je geraakt en waarom?
+ - Welke drie filmpjes vond je het meest interessant en waarom?
+ - Welke ontwikkeling of innovatie zag je in die filmpjes?
+ - Waar ben je nieuwsgierig naar geworden door deze filmpjes?
+
