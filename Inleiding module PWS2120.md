@@ -12,8 +12,6 @@ Jouw profielwerkstuk gaat over de wereld waarin jíj straks leeft, werkt en keuz
 
 Je kijkt eerst naar jonge ontwerpers die nu al aan die toekomst bouwen. Daarna schrijf je zelf een dagboekfragment uit het jaar 2050: hoe ziet een gewone dag er dan uit? Vervolgens maak je kennis met de **Sustainable Development Goals (SDG's)**: zeventien doelen die bijna alle landen van de wereld hebben afgesproken, over onderwerpen als klimaat, armoede, gezondheid, energie en ongelijkheid. Die doelen laten zien aan welke vraagstukken de wereld nu werkt — en waar dus ook voor jou iets te onderzoeken valt.
 
-Via het toekomstlabspel kom je stap voor stap uit bij een thema dat bij jou past, en formuleer je daar een eigen **toekomstvraag** bij.
-
 ## Waarom systeemdenken?
 
 De grote vraagstukken van deze tijd hebben iets gemeen: ze zijn nooit het gevolg van één oorzaak, en ze zijn niet op te lossen met één simpele maatregel. Alles hangt met alles samen.
@@ -32,7 +30,5 @@ Aan het eind van deze module heb je:
 - inzicht in wie er bij jouw vraagstuk betrokken zijn en welke belangen er spelen;
 - een systeemanalyse met causaal diagram waarin je laat zien hoe jouw vraagstuk in elkaar zit;
 - vaardigheden — toekomstdenken, denken vanuit verschillende perspectieven en systeemdenken — waar je bij je profielwerkstuk én daarna profijt van hebt.
-
-Kortom: je begint straks niet met een leeg blad aan je profielwerkstuk, maar met een onderwerp waar je al grip op hebt en waar je zin in hebt.
 
 Veel plezier en succes!
