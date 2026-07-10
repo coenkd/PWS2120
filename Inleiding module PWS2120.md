@@ -1,3 +1,7 @@
+:::{image} Plaatjes/banner_inleiding_PWS2120.svg
+:alt: Van nu naar 2120 — toekomstdenken en systeemdenken
+:width: 100%
+:::
 # Inleiding: onderzoeken voor de toekomst
 
 ## Waar gaat deze module over?
